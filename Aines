@@ -1,0 +1,71 @@
+public class Aines {
+
+  // Propiedades
+  private String nombre;
+  private String[] indicaciones;
+  private String[] ejemplos;
+  private String[] contraindicaciones;
+  private String dosisRecomendada;
+  private String[] efectosAdversos;
+
+  // Constructor
+  public Aines(String nombre, String[] indicaciones, String[] ejemplos, String[] contraindicaciones,
+               String dosisRecomendada, String[] efectosAdversos) {
+    this.nombre = nombre;
+    this.indicaciones = indicaciones;
+    this.ejemplos = ejemplos;
+    this.contraindicaciones = contraindicaciones;
+    this.dosisRecomendada = dosisRecomendada;
+    this.efectosAdversos = efectosAdversos;
+  }
+
+  // Métodos getters y setters para acceder a las propiedades
+
+  public String getNombre() {
+    return nombre;
+  }
+
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+
+  public String[] getIndicaciones() {
+    return indicaciones;
+  }
+
+  public void setIndicaciones(String[] indicaciones) {
+    this.indicaciones = indicaciones;
+  }
+
+  public String[] getEjemplos() {
+    return ejemplos;
+  }
+
+  public void setEjemplos(String[] ejemplos) {
+    this.ejemplos = ejemplos;
+  }
+
+  public String[] getContraindicaciones() {
+    return contraindicaciones;
+  }
+
+  public void setContraindicaciones(String[] contraindicaciones) {
+    this.contraindicaciones = contraindicaciones;
+  }
+
+  public String getDosisRecomendada() {
+    return dosisRecomendada;
+  }
+
+  public void setDosisRecomendada(String dosisRecomendada) {
+    this.dosisRecomendada = dosisRecomendada;
+  }
+
+  public String[] getEfectosAdversos() {
+    return efectosAdversos;
+  }
+
+  public void setEfectosAdversos(String[] efectosAdversos) {
+    this.efectosAdversos = efectosAdversos;
+  }
+}
